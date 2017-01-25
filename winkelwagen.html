@@ -1,0 +1,153 @@
+<!--
+* naam: Romy Mae Miltenburg
+* groep: 6a
+* datum: 25-1-2017
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Nothern Lights webshop </title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./css/bootstrap-theme.min.css" rel="stylesheet"/>
+<link href="./css/bootstrap-theme.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Eczar:400,600,800">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMa"></script>
+
+</head>
+<body>
+<!-- Navigation Bar (BT) -->
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Nothern Lights</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="webshop.html">Webshop</a></li>
+                <li class="active"><a href="winkelwagen.html">Winkelwagen</a><span class="sr-only">(current)</span></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="top">
+        <header class="image-bg-fluid-height">
+            <h2 class="heading txt-white">Nothern Lights</h2>
+            <p class="txt-white">Your selected items</p>
+        </header>
+    </div>
+</div>
+<main>
+    <!-- /post-header section -->
+
+    <section class="container">
+
+        <form class="cart" id="cart-NL">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="item">
+                    <img src="img/nl5.jpg" class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <h2>Innovative</h2>
+
+                    <div class="info">
+                        <span>Price: &euro; 679,-</span>
+                    </div>
+
+                    <div class="order">
+                        <label for="txt-Invv">Quantity desired:</label>
+                        <input type="number" id="txt-Invv" size="0" placeholder="0">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="item">
+                    <img src="img/nl6.jpg" class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <h2>Årene vi har foran oss</h2>
+
+                    <div class="info">
+                        <span>Price: &euro; 1045,-</span>
+                    </div>
+
+                    <div class="order">
+                        <label for="txt-foran">Quantity desired:</label>
+                        <input type="number" id="txt-foran" size="0" placeholder="0">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="item">
+                    <img src="img/nl9.jpg" class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <h2>Kjerneoppgave</h2>
+
+                    <div class="info">
+                        <span>Price:&euro; 647,- </span>
+                    </div>
+
+                    <div class="order">
+                        <label for="txt-Kjerneoppgave">Quantity desired:</label>
+                        <input type="number" id="txt-Kjerneoppgave" size="0" placeholder="0">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="group special">
+                    <div class="thumbnail">
+                        <input type="checkbox" value="YES" name="c-special-gift" id="c-special-gift"> <label for="c-special-gift"> Laten bezorgen in veiligheidsverpakking (€ 122.25 per schilderij)</label><br>
+
+                        <input type="checkbox" value="YES" name="c-special-email" id="c-special-email"> <label for="c-special-email">Spoedbezorging (€ 25,00 voor het totale pakket)</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="group method">
+                    <input type="radio" value="frame1" name="r_method" id="r-method-frame1" checked> <label for="r-method-frame1">Eenvoundig frame (€12,50)</label><br>
+
+                    <input type="radio" value="frame2" name="r_method" id="r-method-frame2"> <label for="r-method-frame2">Elegant frame (€14,95)</label><br>
+
+                    <input type="radio" value="frame3" name="r_method" id="r-method-frame3"> <label for="r-method-frame3">Sjiek de Friemel frame (19,95)</label><br>
+                    <input type="radio" value="frame4" name="r_method" id="r-method-frame4"> <label for="r-method-frame4">Trump frame (€21,95)</label>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="">
+                    <div class="group calc">
+                        <p>
+                            <label for="btn-estimate">Click to estimate:</label><br>
+                            <input type="submit" value="Estimate Total" id="btn-estimate">
+                            <input type="text" id="txt-estimate" placeholder="€0.00">
+                        </p>
+
+                        <div id="results"></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+</main>
+<footer>
+    <h4 class="text-center">© 2017 Company,Inc.</h4>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Shopping cart-->
+<script src="js/prijsbereken.js"/>
+</body>
+</html>
