@@ -14,16 +14,14 @@
     <title>Nothern Lights webshop </title>
     <link href="./css/bootstrap.min.css" rel="stylesheet"/>
     <link href="./css/bootstrap-theme.min.css" rel="stylesheet"/>
-<link href="./css/bootstrap-theme.css" rel="stylesheet">
+    <link href="./css/bootstrap-theme.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Eczar:400,600,800">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMa"></script>
-
 </head>
 
 <body>
-<!-- Navigation Bar (BT) -->
+
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
     <div class="container">
         <div class="navbar-header">
@@ -35,17 +33,17 @@
             </button>
             <a class="navbar-brand" href="#">Nothern Lights</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Webshop</a></li>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="webshop.html">Webshop</a></li>
                 <li class="active"><a href="winkelwagen.html">Winkelwagen</a><span class="sr-only">(current)</span></li>
 
             </ul>
-        </div><!--/.nav-collapse -->
+        </div>
     </div>
 </nav>
-<!-- Text over image -->
+
 <div class="container">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="top">
         <header class="image-bg-fluid-height">
@@ -55,7 +53,7 @@
     </div>
 </div>
 <main>
-    <!-- /post-header section -->
+
 
     <section class="container">
         <div class="row">
@@ -113,50 +111,50 @@
         </div>
         <div class="row">
             <div class="col-md-7">
-                <input type="checkbox" name="spoed" id="spoed" value="25.00">De spoedbezorging van &euro;25,00
+                <input type="checkbox" name="spoed" id="spoed" value="25.00">De spoedbezorging van &euro;25,00.
             </div>
         </div>
         <br>
         <form id="">
             <div class="row">
                 <div class="col-md-1"><img src="img/fram1.png"></div>
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <input type="radio" name="r_method" id="r_method_Eenvoudig" value="Eenvoudig" checked> Eenvoundig frame (&euro;12,50)</div></div>
             <div class="row">
                 <div class="col-md-1"><img src="img/frame2.jpg"></div>
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <input type="radio" name="r_method" id="r_method_Elegant" value="Elegant">Elegant frame (&euro;14,95)</div></div>
             <div class="row">
                 <div class="col-md-1"><img src="img/frame3.png"></div>
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <input type="radio" name="r_method" id="r_method_Sjiek" value="Sjiek">Sjiek de Friemel frame (&euro;19,95)</div></div>
             <div class="row">
                 <div class="col-md-1"><img src="img/frame4.png"></div>
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <input type="radio" name="r_method" id="r_method_Trump" value="Trump">Trump frame (&euro;21.95)</div></div>
             </div>
             </div>
         </form>
         <div class="row">
-            <div class="col-md-7 text-right">
+            <div class="col-md-6 text-right">
                 <button type="button" class="btn btn-default" id="berekentotaalbtn">bereken totaal</button>
             </div>
-            <div class="col-md-2">
-                <p id="totaalprijsshow">Totaalprijs</p>
+            <div class="col-md-4">
+                <p id="totaalprijs">Totaalprijs</p>
             </div>
         </div>
     </section>
 
 </main>
 <footer>
-    <h4 class="text-center">© 2017 Company,Inc.</h4>
+    <h5 class="text-center">© 2017 Company,Inc.</h5>
 </footer>
-<!-- Shopping cart-->
-<script src="js/prijsbereken.js"/>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/bootstrap.min.js"></script>
+
+<script src="jsprijs/prijsberekening.js"/>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMa"></script>
 <script src="js/jquery-3.1.1.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
+
 
 
 
